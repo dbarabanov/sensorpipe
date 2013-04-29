@@ -10,8 +10,8 @@ void setup()
 void loop()
 {
 	Serial.println(Esplora.readLightSensor(), DEC);
-	delay(500);
+	delay(30000);
 	digitalWrite(LED_PIN, HIGH);
-	delay(500);
+	delay(30000);
 	digitalWrite(LED_PIN, LOW);
 }
