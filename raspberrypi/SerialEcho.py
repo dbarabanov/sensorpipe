@@ -14,3 +14,4 @@ with open(filename, 'w') as writer:
 		line = now+'\t'+input
 		print(line)
 		writer.write(line)
+		serialFromArduino.flushInput()
